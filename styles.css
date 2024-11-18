@@ -136,11 +136,14 @@ button {
     padding: 20px 0;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
+
 }
 
 .info-items {
     display: flex;
     gap: 45px;
+    padding-top: 30px;
+
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 }
